@@ -1,0 +1,56 @@
+// Place all the styles related to the post controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+html {
+  margin: 0px;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+.jumbotron {
+  position: relative;
+  background: #000 image-url("squidbillies_wallpaper.jpg") center center;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  overflow: hidden;
+  min-height: 600px;
+  background-repeat: no-repeat;
+}
+.hr {
+  height: 6;
+  width: 80%;
+  align-self: center;
+
+}
+
+.fcont {
+  height: 210px;
+  width: 24%;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#cont1 {
+  background-image: image-url("squid_jesus.jpeg");
+}
+
+#cont2 {
+  background-image: image-url("TheSSquid.jpg");
+}
+
+#cont3 {
+  background-image: image-url("satans_followers.jpg");
+}
+
+#cont4 {
+  background-image: image-url("satan_sings_solo.jpeg");
+
+}
